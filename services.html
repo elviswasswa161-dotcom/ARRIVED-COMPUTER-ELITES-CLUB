@@ -23,7 +23,7 @@
             overflow: hidden;
         }
         nav a{
-            float: left;
+            float: right;
             color: bisque;
             display: ruby-base;
             padding: 14px 16px;
@@ -32,6 +32,12 @@
         }
           nav a:hover{
 background-color: rgb(95, 9, 60);
+        }
+        @media screen and (max-width: 768px) {
+            nav a {
+                float: none;
+                text-align: center;
+            }
         }
         .content {
       padding: 20px;
@@ -56,7 +62,7 @@ background-color: rgb(95, 9, 60);
     </header>
     
     <nav>
-<a href="it index.html">HOME</a>
+<a href="index.html">HOME</a>
 <a href="About us.html">ABOUT US</a>
 <a href="contact us.html">CONTACT US</a>
 <a href="services.html">SERVICES</a>
@@ -64,11 +70,11 @@ background-color: rgb(95, 9, 60);
 
     <div class="content">
         <h1>Our Services</h1>
-        <p>We offer a range of computing services including software development, hardware repair, and IT consulting.</p>
+        <p>We offer a range of computing services including; hardware repair, and IT consulting.</p>
         <ul>
             <li>Web Development</li>
-            <li>Mobile App Development</li>
-            <li>System Maintenance</li>
+            <li>Intro to Microsoft Office Basics training</li>
+            <li>Intro to computer hardware training</li>
             <li>Training and Workshops</li>
         </ul>
     </div>
